@@ -1,0 +1,37 @@
+[project]
+name = "df2mysql"
+version = "0.0.1"
+description = "提供了一组方法，用于与 Microsoft SQL Server 数据库进行交互。允许执行各种操作，如连接到 SQL Server、创建和删除数据库、创建和删除表、添加和删除列、插入和检索数据等。"
+readme = "README.md"
+authors = [{ name = "wfj", email = "wfj.0000@gmail.com" }]
+keywords = ["df2mysql", "Microsoft SQL Server", "数据库交互", "数据库连接", "数据库操作", "数据库管理"]
+license = { text = "MIT" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Operating System :: OS Independent"
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+homepage = "https://github.com/ng-fukgin/df2mysql"
+repository = "https://github.com/ng-fukgin/df2mysql"
+documentation = "https://github.com/ng-fukgin/df2mysql/wiki"
+bugtracker = "https://github.com/ng-fukgin/df2mysql/issues"
+
+[options]
+python_requires = ">=3.7"
+install_requires = [
+    "pymssql",
+    "pandas"
+]
