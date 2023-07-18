@@ -1,4 +1,4 @@
-**df2mysql** 是一个用于连接和操作 Microsoft SQL Server 数据库的 Python 包。它提供了一个名为 **Database** 的类，可以使用该类的方法执行各种数据库操作，如创建和删除数据库、创建和删除表、插入和检索数据等。
+**[df2mysql](https://pypi.org/project/df2mysql/)** 是一个用于连接和操作 Microsoft SQL Server 数据库的 Python 包。它提供了一个名为 **Database** 的类，可以使用该类的方法执行各种数据库操作，如创建和删除数据库、创建和删除表、插入和检索数据等。
 
 使用方法：
 以下是使用 **df2mysql** 包的一般步骤：
